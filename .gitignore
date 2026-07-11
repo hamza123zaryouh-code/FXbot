@@ -1,0 +1,40 @@
+# ===== CREDENTIALS — NOOIT COMMITTEN =====
+bot_config.ini
+.env
+*.key
+*.pem
+*.p12
+
+# ===== BOT RUNTIME BESTANDEN =====
+bot_heartbeat.txt
+bot_start_balance.txt
+bot.lock
+ftmo_bot.log
+ftmo_bot.log.*
+
+# ===== PYTHON =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ===== VIRTUAL ENVIRONMENT =====
+.venv/
+venv/
+env/
+
+# ===== DATABASE =====
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== EDITOR / OS =====
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
