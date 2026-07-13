@@ -1,0 +1,8 @@
+# Live bot
+MetaTrader5
+requests
+
+# Backtest
+numpy
+pandas
+dukascopy-python

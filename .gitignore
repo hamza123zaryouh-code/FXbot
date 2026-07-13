@@ -6,11 +6,15 @@ bot_config.ini
 *.p12
 
 # ===== BOT RUNTIME BESTANDEN =====
-bot_heartbeat.txt
-bot_start_balance.txt
-bot.lock
-ftmo_bot.log
-ftmo_bot.log.*
+lbo_bot.log
+lbo_bot.log.*
+lbo_bot_heartbeat.txt
+lbo_start_balance.txt
+lbo_fp_state.json
+lbo_bot.lock
+
+# ===== DATA CACHES (groot, herdownloadbaar) =====
+*.pkl
 
 # ===== PYTHON =====
 __pycache__/
@@ -26,11 +30,6 @@ build/
 .venv/
 venv/
 env/
-
-# ===== DATABASE =====
-*.db
-*.sqlite
-*.sqlite3
 
 # ===== EDITOR / OS =====
 .vscode/
